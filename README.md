@@ -1,4 +1,4 @@
-# Mobile_Robotics_Lab
+# Mobile Robotics Lab
 
 ## Wifi Setup
 Run the Following in terminal:
