@@ -1,5 +1,8 @@
 # Mobile Robotics Lab
 
+## Turtlebot3 Instructions
+[https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
+
 ## Wifi Setup
 Run the Following in terminal:
 ```shell
