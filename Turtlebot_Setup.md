@@ -1,4 +1,19 @@
-Prequisits
+Autorace Packages
+```shell
+cd ~/catkin_ws/src/
+git clone -b noetic https://github.com/ROBOTIS-GIT/turtlebot3_autorace_2020.git
+cd ~/catkin_ws && catkin_make
+```
+
+Setup swapfile to prevent out of memory error
+```
+sudo fallocate -l 4G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+```
+
+Dependencies
 ```shell
 sudo apt-get update
 sudo apt-get install build-essential cmake gcc g++ git unzip pkg-config
