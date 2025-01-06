@@ -73,12 +73,9 @@ sudo apt-get update
 
 
 Turn off Raspberry Pi, take out the microSD card and edit the config.txt in system-boot section. add start_x=1 before the enable_uart=1 line.
-```shell
-sudo apt install ffmpeg
-ffmpeg -f video4linux2 -s 640x480 -i /dev/video0 -ss 0:0:2 -frames 1 capture_test.jpg
-```
 
 Install additional dependent packages
 ```shell
+sudo apt install ffmpeg
 sudo apt install ros-noetic-cv-camera
 ```
